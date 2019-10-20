@@ -1,0 +1,49 @@
+@import "../../sass/variable.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+.navbar {
+    box-shadow: 0 3px 10px $dark-text;
+    font-family: $text-font;
+    
+    p { 
+        position: absolute;
+        top:20%;
+        padding: 0;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    // span{
+    //     color: #87cd52;
+    //     font-size: 3rem;
+    // }
+    // em {
+    //     font-size: 3rem;
+    // }
+    a.titleFont {
+        font-family: $title-font;
+        color: $light-text;
+    }
+    a.titleFont:hover {
+        color: #e75d19;
+        font-weight: bold;
+    }
+    a.nav-link {
+        font-size: 1.2em;
+    }
+    .light-text {
+        color: $light-text
+    }
+  
+    h5{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+}
+
+.navbar {
+    background-color: rgb(203,251,254); /* For browsers that do not support gradients */
+     height: 100%;
+	//  background-image: linear-gradient(rgb(25,177,164), rgb(25,177,164)); /* Standard syntax (must be last) */
+	}
+
+
+
+

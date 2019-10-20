@@ -1,0 +1,28 @@
+
+@import "./sass/variable.scss";
+
+html, body {
+    // background: $background-color;
+    height: 100%;
+    margin: 0;
+    position: relative;
+
+    // background-color: rgb(93,136,187);
+    background: url("/assets/images/login_bg3.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.notFound {
+    margin-top: 75px;
+    text-align: center;
+
+    img {
+        height: 250px;
+        width: 300px;
+        margin-top: 25px;
+    }
+}

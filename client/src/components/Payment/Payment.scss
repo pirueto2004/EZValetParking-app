@@ -1,0 +1,68 @@
+.Pay {
+    text-align: center;
+  }
+  
+  .Pay-logo {
+    height: 43%;//always keep it <50% for images to be more responsive
+    margin: auto;
+    margin-top: 2%;
+    // margin-right: 3%;
+    width: auto;
+    // height: 65%;
+  }
+  
+  .Pay-header {
+    // background-color: #222;
+    height: 120px;
+    margin: auto;
+    margin-top: 2%;
+    // padding: 20px;
+    color: #073127;;
+  }
+  
+  .Pay-intro {
+    font-size: large;
+  }
+  
+  
+  // #dollarInput
+  // {
+  //   font-size: 1em;
+  //   width: 30%;
+  //   box-sizing: border-box;
+  // }
+
+  #payAmt input {
+    margin: 0 auto;
+  }
+
+  @keyframes Pay-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Pay-Now {
+    color: white;
+    padding: 15px;
+    background-color: orangered;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 3%;
+    display: inline-block;
+  }
+  
+  .Pay-Now-Disabled {
+    background-color: gray;
+  }
+  
+  a {
+    text-decoration: none !important;
+}
+//    #parking3, #ezlogo
+//     {
+//         display: none;
+//     } 
