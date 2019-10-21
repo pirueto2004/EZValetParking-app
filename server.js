@@ -152,7 +152,8 @@ function sendNotification(message) {
     }
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Pro3_db_dev", { useNewUrlParser: true }, function(err) {
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Pro3_db_dev", { useNewUrlParser: true }, function(err) {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/EZvalpark_db_dev", { useNewUrlParser: true }, function(err) {
     if (err) throw err;
     console.log(`mongoose connection successful`.yellow);
     app.listen(PORT, (err)=> {
