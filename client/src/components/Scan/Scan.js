@@ -29,7 +29,8 @@ class Scan extends Component {
             });
             const token = window.location.search.match(/\?userToken=(\S+)/);
 
-        fetch('https://ez-valpark.herokuapp.com/scan', {
+//         fetch('https://ez-valpark.herokuapp.com/scan', {
+	    fetch('https://ezvaletparking-app.herokuapp.com/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

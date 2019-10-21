@@ -11,16 +11,16 @@ function pullEmails () {
 const transport = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'ezvalet2019@gmail.com',
+        user: 'belljulio66@gmail.com',
         pass: crypt.decrypt(encryptedPassword),
     },
 });
 module.exports = function sendEmail() {
     pullEmails();
     const mailOptions = {
-        from: 'ezvalet2019@gmail.com',
+        from: 'belljulio66@gmail.com',
         to: emailList,
-        subject: "SC Kitchen has a new listing!",
+        subject: "A new vehicle has been registered!",
         html: "message",
     };
     transport.sendMail(mailOptions, (error) => {

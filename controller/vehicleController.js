@@ -36,7 +36,7 @@ module.exports = {
     const mailOptions = {
       from: '"EZ Valet" <belljulio66@gmail.com>',
       to: ["belljulio66@gmail.com"],
-      subject: "EZ Valet- New vahicle registration!",
+      subject: "EZ Valet- New vehicle registration!",
       text: "A new vehicle "+req.body.vehicleinfo+" ("+" id # "+req.body.customerId+") "+"has been succussfully registered. "
       +"Registered Phone is "+req.body.pocphone+" ."
     };
