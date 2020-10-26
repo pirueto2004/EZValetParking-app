@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
+import { FormGroup, Row, Col } from 'reactstrap';
 import "./Retrieve.scss";
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom"
@@ -308,7 +308,7 @@ class Retrieve extends Component {
                                                                     return (
                                                                         
                                                                         <tr>
-                                                                        <td className="counterCell">{""+"."}</td>
+                                                                        <td className="counterCell">{`.`}</td>
                                                                         <td>{vehicle.customerId}</td>
                                                                         <td>{vehicle.locname}</td>
                                                                         <td>{vehicle.poc}</td>

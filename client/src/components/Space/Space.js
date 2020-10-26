@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import "./Space.scss";
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom"
 import API from "../../utils/API";
-import Vehicle from "../../components/Vehicle";
 
 class Space extends Component {
     

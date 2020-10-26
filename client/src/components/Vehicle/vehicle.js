@@ -377,7 +377,7 @@ class Vehicle extends Component {
                                                                     return (
                                                                         
                                                                         <tr>
-                                                                        <td className="counterCell">{""+"."}</td>
+                                                                        <td className="counterCell">{`.`}</td>
                                                                         <td>{vehicle.customerId}</td>
                                                                         <td>{vehicle.locname}</td>
                                                                         <td>{vehicle.poc}</td>
