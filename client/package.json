@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "qrcode.react": "^0.9.3",
     "react": "^16.7.0",
     "react-chartjs-2": "^2.7.6",
